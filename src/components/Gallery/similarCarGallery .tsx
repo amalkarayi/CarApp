@@ -36,6 +36,7 @@ const SimilarCarGallery: React.FC<SimilarCarGalleryProps> = ({ carId }) => {
       renderItem={(car) => <CarCard onClick ={handleCarSelection} car={car} disableCompareSelection ={selectedCars?.length > maxSelectedCarCount}/>}
       isLoading={isLoading}
       error={error}
+      emptyMessage="No similar cars found"
     />
     <CompareButton onClick={redirectToCompare} display={(selectedCars?.length > 0)} disabled={(selectedCars?.length > maxSelectedCarCount)||((selectedCars?.length ==1))} />
     </>

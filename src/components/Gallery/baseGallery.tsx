@@ -10,6 +10,7 @@ interface GalleryProps<T> {
   renderItem: (item: T) => React.ReactNode;
   isLoading: boolean;
   error: any;
+  emptyMessage?: string;
 }
 
 const BaseGallery = <T,>({
@@ -18,7 +19,8 @@ const BaseGallery = <T,>({
   items,
   renderItem,
   isLoading,
-  error
+  error,
+  emptyMessage="Nothing here!"
 }: GalleryProps<T>) => {
   if (isLoading) {
     return <CircularProgress />;
@@ -27,7 +29,7 @@ const BaseGallery = <T,>({
   if (error) {
     return <Alert severity="error">An error occurred while fetching cars.</Alert>;
   }
-  
+
   return (
     <Box
       sx={{
@@ -47,13 +49,17 @@ const BaseGallery = <T,>({
           </Typography>
         )}
       </Box>
-      <Grid container spacing={2}>
+      {
+        (items.length === 0)? <Alert severity="info">{emptyMessage}</Alert>:
+        <Grid container spacing={2}>
         {items.map((item, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
             {renderItem(item)}
           </Grid>
         ))}
       </Grid>
+      }
+
     </Box>
   );
 };
