@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "make": "Tesla",
+        "model": "Model S",
+        "year": 2022,
+        "images": [
+            "https://cdn.pixabay.com/photo/2019/04/25/20/12/sport-4155825_1280.jpg"
+        ],
+        "engine": "Electric",
+        "horsepower": 1020,
+        "torque": "1050 Nm",
+        "transmission": "Automatic",
+        "drivetrain": "AWD",
+        "category": "Sedan"
+    },
+    {
+        "id": 2,
+        "make": "BMW",
+        "model": "i8",
+        "year": 2021,
+        "images": [
+            "https://media.istockphoto.com/id/1070147706/photo/3d-illustration-of-generic-silver-hatchback-on-white-background.jpg?s=1024x1024&w=is&k=20&c=UB23tujWfBl96ICotcqLGAicN_FjiamIu9V9lxFPZcM="
+        ],
+        "engine": "1.5L Turbocharged Inline-3 + Electric Motor",
+        "horsepower": 369,
+        "torque": "420 Nm",
+        "transmission": "Automatic",
+        "drivetrain": "AWD",
+        "category": "Coupe"
+    },
+    {
+        "id": 3,
+        "make": "Audi",
+        "model": "R8",
+        "year": 2020,
+        "images": [
+            "https://cdn.pixabay.com/photo/2012/11/02/13/02/car-63930_1280.jpg"
+        ],
+        "engine": "5.2L V10",
+        "horsepower": 602,
+        "torque": "560 Nm",
+        "transmission": "Automatic",
+        "drivetrain": "AWD",
+        "category": "Coupe"
+    },
+    {
+        "id": 4,
+        "make": "Mercedes-Benz",
+        "model": "S-Class",
+        "year": 2022,
+        "images": [
+            "https://cdn.pixabay.com/photo/2013/07/12/12/55/oldtimer-146524_1280.png"
+        ],
+        "engine": "4.0L V8",
+        "horsepower": 496,
+        "torque": "700 Nm",
+        "transmission": "Automatic",
+        "drivetrain": "AWD",
+        "category": "Sedan"
+    },
+    {
+        "id": 5,
+        "make": "Porsche",
+        "model": "911",
+        "year": 2021,
+        "images": [
+            "https://cdn.pixabay.com/photo/2024/01/17/12/06/car-8514314_1280.png"
+        ],
+        "engine": "3.0L Twin-Turbocharged Flat-6",
+        "horsepower": 443,
+        "torque": "530 Nm",
+        "transmission": "Automatic",
+        "drivetrain": "RWD",
+        "category": "Coupe"
+    },
+    {
+        "id": 6,
+        "make": "Lamborghini",
+        "model": "Huracan",
+        "year": 2020,
+        "images": [
+            "https://cdn.pixabay.com/photo/2017/04/06/22/11/car-2209439_1280.png"
+        ],
+        "engine": "5.2L V10",
+        "horsepower": 631,
+        "torque": "600 Nm",
+        "transmission": "Automatic",
+        "drivetrain": "AWD",
+        "category": "Coupe"
+    },
+    {
+        "id": 7,
+        "make": "Ferrari",
+        "model": "488",
+        "year": 2019,
+        "images": [
+            "https://cdn.pixabay.com/photo/2013/07/12/12/56/ford-mustang-146580_1280.png"
+        ],
+        "engine": "3.9L Twin-Turbocharged V8",
+        "horsepower": 661,
+        "torque": "760 Nm",
+        "transmission": "Automatic",
+        "drivetrain": "RWD",
+        "category": "Coupe"
+    },
+    {
+        "id": 8,
+        "make": "Aston Martin",
+        "model": "DB11",
+        "year": 2021,
+        "images": [
+            "https://cdn.pixabay.com/photo/2014/09/07/22/34/car-race-438467_1280.jpg"
+        ],
+        "engine": "4.0L Twin-Turbocharged V8",
+        "horsepower": 503,
+        "torque": "675 Nm",
+        "transmission": "Automatic",
+        "drivetrain": "RWD",
+        "category": "Coupe"
+    },
+    {
+        "id": 9,
+        "make": "Jaguar",
+        "model": "F-Type",
+        "year": 2020,
+        "images": [
+            "https://cdn.pixabay.com/photo/2020/02/03/10/02/sports-car-4815234_1280.jpg"
+        ],
+        "engine": "5.0L Supercharged V8",
+        "horsepower": 575,
+        "torque": "700 Nm",
+        "transmission": "Automatic",
+        "drivetrain": "AWD",
+        "category": "Coupe"
+    },
+    {
+        "id": 10,
+        "make": "Chevrolet",
+        "model": "Corvette",
+        "year": 2021,
+        "images": [
+            "https://cdn.pixabay.com/photo/2014/09/07/22/34/car-race-438467_1280.jpg"
+        ],
+        "engine": "6.2L V8",
+        "horsepower": 495,
+        "torque": "637 Nm",
+        "transmission": "Automatic",
+        "drivetrain": "RWD",
+        "category": "Coupe"
+    },
+    {
+        "id": 11,
+        "make": "Jeep",
+        "model": "Wrangler",
+        "year": 2022,
+        "images": [
+            "https://cdn.pixabay.com/photo/2017/04/24/00/16/car-2255161_1280.jpg"
+        ],
+        "engine": "3.6L V6",
+        "horsepower": 285,
+        "torque": "353 Nm",
+        "transmission": "Automatic",
+        "drivetrain": "4WD",
+        "category": "SUV"
+    },
+    {
+        "id": 12,
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2020,
+        "images": [
+            "https://cdn.pixabay.com/photo/2019/09/01/12/59/car-4445171_1280.jpg"
+        ],
+        "engine": "5.0L V8",
+        "horsepower": 450,
+        "torque": "556 Nm",
+        "transmission": "Manual",
+        "drivetrain": "RWD",
+        "category": "Coupe"
+    }
+]

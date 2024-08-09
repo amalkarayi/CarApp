@@ -1,0 +1,1 @@
+export const maxSelectedCarCount = 3;

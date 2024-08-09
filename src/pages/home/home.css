@@ -1,0 +1,26 @@
+/* Home.module.css */
+.container {
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    color: white;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 1rem; /* Equivalent to p={4} in Chakra UI */
+  }
+  
+  .heading {
+    font-size: 2rem; /* Equivalent to size="xl" in Chakra UI */
+  }
+  
+  .navButton {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .vStack {
+    margin-top: 2.5rem; /* Equivalent to mt={10} in Chakra UI */
+    align-items: center;
+  }
